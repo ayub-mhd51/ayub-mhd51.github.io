@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Green with Love - Queries</title>
+    <link rel="stylesheet" href="pureheart2.css" />
+    <script src="PureHeart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <!--Charity name and slogan-->
+            <h1>Green with Love</h1>
+            <p>Purehearted in nature</p>
+            <!--nav bar-->
+            <nav class="navbar">
+                <ul id="nav">
+                    <li><img src="PureHearts_logo.png" width="100" height="50" id="logo" onmouseover="NewPicture()" onmouseout="OldPicture()" /></li>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="fundraising.html">Fundraisers</a></li>
+                    <li><a href="eventhalls.html">Event Hire</a></li>
+                    <li><a href="queries.html">Queries</a></li>
+                    <li><a href="contactus.html">Contact us</a></li>
+                </ul>
+                <!--Donate button-->
+                <div>
+                    <p>
+                        <a href="donate.html" class="button">DONATE</a>
+                    </p>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <h1>Queries</h1>
+        <p>Here is some extra information about any queries or questions you may have!</p>
+    </div>
+    <div>
+        <!--A query form with name, email and space for comment-->
+            <form class="form">
+                <fieldset>
+                    <legend>PureHeart Queries</legend>
+                    <p>
+                        <label>Name:</label>
+                        <input type="text" id=name placeholder="Type name here" required />
+                    </p>
+                    <p>
+                        <label>Email:</label>
+                        <input type="email" placeholder="Type email here" required />
+                    </p>
+                    <div id="query">
+                        <label>Query:</label>
+                        <textarea rows="4" maxlength="200" placeholder="Type query here..." required ></textarea>
+                    </div>
+                    <!--A pop-up thank you message after submitting query-->
+                    <p>
+                        <button class="button" onclick="queries()">Submit</button>
+                    </p>
+                </fieldset>
+            </form>
+</div>
+    <footer>
+        <div id="footer">
+            <p>
+                Registration numbers: England and Wales 248801, Scotland SC034549.
+            </p>
+            <p>
+                Green with Love | © 2024 Green with Love - All rights reserved.
+            </p>
+            <p>Contact us via social media</p>
+            <p id="socials">
+                <a href="https://www.twitter.com">
+                    <img src="twitter x.png" width="50" height="50" />
+                </a>
+                <a href="https://www.facebook.com">
+                    <img src="facebook logo.png" width="50" height="50" />
+                </a>
+                <a href="https://www.instagram.com">
+                    <img src="instagram logo.png" width="50" height="50" />
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
