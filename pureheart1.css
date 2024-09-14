@@ -1,0 +1,115 @@
+﻿/* */
+.body{
+    background-color: bisque;
+}
+/* */
+.header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:saddlebrown;
+    text-align: center;
+}
+/* */
+h1.header {
+    font:600;
+    padding-top: 10px;
+}
+
+p.header {
+    font: italic;
+}
+
+/* Aligns nav links horizontally */
+.navbar {
+    display: inline-block;
+}
+
+    #nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #nav li {
+        float: right;
+    }
+
+
+    /* Style the nav links */
+    #nav a {
+        display: block;
+        width: auto;
+        color: saddlebrown;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        /* Change color on hover */
+        #nav a:hover {
+            background-color: white;
+            color: saddlebrown;
+        }
+
+/* unvisited link */
+a:link {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+.caption {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: saddlebrown;
+    text-align: center;
+}
+
+
+.column {
+   column-count:3;
+   column-gap:10px;
+}
+
+
+.footer {
+    display: block flow-root;
+    text-align:center;
+    font:100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: saddlebrown;
+    padding: 4px 7px 2px 4px;
+}
+/* Makes logos */
+#socials a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    /* Change the link color to crimson on hover */
+    #socials a:hover {
+        background-color: crimson;
+    }
+
+.active {
+    background-color: crimson;
+}

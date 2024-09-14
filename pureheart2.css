@@ -1,0 +1,202 @@
+﻿body {
+    background: #FFE5BD;
+    margin: auto;
+    width: 90%;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(19, 139, 25);
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(19, 139, 25);
+}
+
+/* Centers charity name*/
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(19, 139, 25);
+    text-align: center;
+}
+
+/* Spaces out charity name on header and makes name bolder*/
+h1.header {
+    font: 600;
+    padding-top: 10px;
+}
+
+nav {
+    margin: auto;
+}
+
+/* text in section covers 70% of space*/
+.section {
+    text-align: center;
+    color: rgb(19, 139, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(19, 139, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#navbar {
+    display: inline-block;
+}
+
+/* Removes list, keeps text within element box */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Moves nav bar to left*/
+
+li {
+    float: left;
+}
+
+    /* Removes underline from hyperlink, */
+
+    li a {
+        display: block;
+        color: rgb(19, 139, 25);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        /* Change the link color to saddlebrown on hover */
+        li a:hover {
+            background-color: rgb(19, 139, 25);
+            color:bisque;
+        }
+
+.active {
+    background-color: rgb(19, 139, 25);
+}
+
+/* Turns donate hyperlink into a clickable box*/
+.button {
+    background-color: rgb(19, 139, 25);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* Form covers half of space*/
+.form {
+    margin:auto;
+    width:50%;
+    text-align:center;
+}
+
+/* Decorates fieldset */
+
+.form fieldset {
+    color: rgb(19, 139, 25);
+    border: 5px dashed rgb(19, 139, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form legend {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    margin:auto;
+}
+
+.price {
+    text-align:center
+}
+
+/*Contrasts price with table - aesthetics*/
+td {
+    font:600;
+    background-color:aliceblue;
+    color: rgb(228, 151, 10);
+}
+
+/* Decorates input boxes*/
+input {
+    border: 2px groove rgb(19, 139, 25);
+    background-color: bisque;
+    color: rgb(19, 139, 25);
+}
+
+
+/* Aligns label and textarea in queries section*/
+textarea {
+    border: 2px groove rgb(19, 139, 25);
+    background-color: bisque;
+    color: rgb(19, 139, 25);
+    vertical-align: middle;
+}
+
+.query {
+    background-color: rgb(19, 139, 25);
+    border: none;
+    color: white;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logins {
+    background-color: rgb(19, 139, 25);
+    border: none;
+    color: white;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#opening {
+    border: 5px groove rgb(19, 139, 25);
+    color: rgb(19, 139, 25)
+}
+
+#closed {
+    color:red;
+    text-transform:capitalize;
+    background-color:lightcyan;
+}
+
+#footer {
+    display: block flow-root;
+    text-align: center;
+    color: rgb(19, 139, 25);
+}
+
+/* Elements are all on one line horizontally and spaced out */
+#socials a {
+    display: inline-block;
+    color: rgb(19, 139, 25);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    /* Change the link color to saddlebrown on hover */
+    #socials a:hover {
+        background-color: rgb(19, 139, 25);
+    }
+
+.active {
+    background-color: rgb(19, 139, 25);
+}

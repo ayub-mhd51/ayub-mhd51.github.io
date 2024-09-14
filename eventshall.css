@@ -1,0 +1,66 @@
+﻿body {
+    background-color: bisque;
+}
+
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(19, 139, 25);
+    text-align: center;
+}
+
+h1.header {
+    font: 600;
+    padding-top: 10px;
+}
+
+p.header {
+    font: italic;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    text-align: center;
+}
+
+    /* Style the topnav links */
+    .topnav a {
+        float: left;
+        display: inline;
+        width: auto;
+        color: rgb(19, 139, 25);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-block: dashed
+    }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: white;
+            color: rgb(19, 139, 25);
+        }
+
+/* unvisited link */
+a:link {
+    color: rgb(19, 139, 25);
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(19, 139, 25);
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(19, 139, 25);
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: rgb(19, 139, 25);
+    text-decoration: none;
+}
